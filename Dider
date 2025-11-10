@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EditPro - Профессиональный монтаж видео</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <nav>
+            <div class="logo">EditPro</div>
+            <ul class="nav-links">
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главный экран -->
+    <section id="main" class="hero">
+        <div class="hero-content">
+            <h1>Твой видео контент - наша забота</h1>
+            <p>Профессиональный монтаж для соцсетей, блогов и творческих проектов</p>
+            <button class="cta-button" onclick="scrollToContacts()">Заказать монтаж</button>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <h2>Мои услуги</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>🎬 Базовый монтаж</h3>
+                <p>Обрезка, склейка, субтитры, музыка</p>
+                <span class="price">от 500₽</span>
+            </div>
+            <div class="service-card">
+                <h3>✨ Продвинутый пакет</h3>
+                <p>+ Эффекты, цветокоррекция, анимация</p>
+                <span class="price">от 1000₽</span>
+            </div>
+            <div class="service-card">
+                <h3>🚀 Полный цикл</h3>
+                <p>Сценарий, монтаж, звук, готовая публикация</p>
+                <span class="price">от 2000₽</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+        <h2>Мои работы</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="video-placeholder">🎥 Видео 1</div>
+                <p>Клип для TikTok</p>
+            </div>
+            <div class="portfolio-item">
+                <div class="video-placeholder">🎥 Видео 2</div>
+                <p>Обзор для YouTube</p>
+            </div>
+            <div class="portfolio-item">
+                <div class="video-placeholder">🎥 Видео 3</div>
+                <p>Рилс для Instagram</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="contacts">
+        <h2>Свяжись со мной</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <a href="https://wa.me/79001234567" class="contact-link">
+                    📱 WhatsApp: +7 (900) 123-45-67
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://t.me/your_username" class="contact-link">
+                    ✈️ Telegram: @your_username
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="mailto:youremail@gmail.com" class="contact-link">
+                    📧 Email: youremail@gmail.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; 2024 EditPro. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
